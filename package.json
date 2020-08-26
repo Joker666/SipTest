@@ -1,0 +1,31 @@
+{
+  "name": "siptest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "source": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "babel": {
+    "presets": [
+      "@babel/preset-env"
+    ]
+  },
+  "browserslist": [
+    "last 1 Chrome version"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/polyfill": "^7.10.4",
+    "arithmetic": "^1.0.1",
+    "jquery": "^3.5.1",
+    "sip.js": "^0.17.1"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.10.5",
+    "@babel/core": "^7.11.4",
+    "@babel/preset-env": "^7.11.0"
+  }
+}
